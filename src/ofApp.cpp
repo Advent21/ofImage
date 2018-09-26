@@ -43,10 +43,11 @@ void ofApp::keyPressed(int key){
 
                 for(int i = 0 ;i < n; i++)
                  img.setColor(i, img.getColor(i).invert());
-             
+            cout<<"i key has been pressed"<<endl;
            img.update();
            }//end if
-	
+	else
+		cout<<"A has been pressed"<<endl;
 }
 
 
