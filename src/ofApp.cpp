@@ -1,6 +1,6 @@
 #include "ofApp.h"
 #include <fstream>
-
+#include <string>
 
 void ofApp::setup(){
      auto name = std::getenv("myfile");
@@ -16,6 +16,8 @@ void ofApp::setup(){
 
        n =  3 * img.getWidth() * img.getHeight();
      */
+
+	cout<<"Hello from setup"<<endl;
 }
 
 
